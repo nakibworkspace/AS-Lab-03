@@ -27,7 +27,7 @@ A graph is a pair of V(a set of nodes, called verticles) and E(collection of pai
 
 The graphs are basically divided into two types: 1. Directed edge & 2. Undirected edge.
 
-![directedgraph.drawio.svg](Graph%20Algorithms%20with%20GraphFrame%20175d4718bce880328f78c07a76917b5a/directedgraph.drawio.svg)
+![directedgraph.drawio.svg](images/image1.svg)
 
 Here the nodes are the verticles and the arrows are called the edges.
 
@@ -85,7 +85,7 @@ spark = SparkSession.builder \
 .getOrCreate()
 ```
 
-![Screenshot 2025-01-16 at 15.08.32.png](Graph%20Algorithms%20with%20GraphFrame%20175d4718bce880328f78c07a76917b5a/Screenshot_2025-01-16_at_15.08.32.png)
+![Screenshot 2025-01-16 at 15.08.32.png](images/image2.png)
 
 Creating vertices(nodes) and edges(the connection between the nodes)
 
@@ -358,11 +358,11 @@ new.show()
 
  a graph clustering algorithm used to identify communities or clusters in a graph. It assigns labels to vertices and propagates these labels through the graph based on the structures of the graph.
 
-![Initial phase of LPA where only two nodes are marked only as different.](Graph%20Algorithms%20with%20GraphFrame%20175d4718bce880328f78c07a76917b5a/LPA.drawio.svg)
+![Initial phase of LPA where only two nodes are marked only as different.](images/image3.svg)
 
 Initial phase of LPA where only two nodes are marked only as different.
 
-![Final phase of LPA where the other nodes are effected by the neighbour nodes.](Graph%20Algorithms%20with%20GraphFrame%20175d4718bce880328f78c07a76917b5a/LPA2.drawio.svg)
+![Final phase of LPA where the other nodes are effected by the neighbour nodes.](images/image4.svg)
 
 Final phase of LPA where the other nodes are effected by the neighbour nodes.
 
