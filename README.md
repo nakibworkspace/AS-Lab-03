@@ -1,10 +1,10 @@
 # Graph Algorithms with GraphFrame
 
-Created: January 9, 2025 1:44 AM
+
 
 On this lab of Spark, we will get to know about a new library of Apache Spark named GraphFrame.
 
-Table of Contents
+# Table of Contents
 
 1. Graph Algorithms with GraphFrame
     - Motif Finding
@@ -15,17 +15,20 @@ Table of Contents
     - Label Propagation Algorithm
     - Shortest Path
 
+
 ## Graph Algorithms with GraphFrame
 
 So far we’ve mainly been focusing on record data, which is typically stored in flat files or relational databases and can be represented as a matrix (a set of rows with named columns). Now we’ll turn our attention to graph-based data, which depicts the relationships between two or more data points.
 
 This chapter introduces GraphFrames, a powerful external package for Spark that provides APIs for representing directed and undirected graphs, querying and analyzing graphs, and running algorithms on graphs.
 
-**Overviews on Graphs:**
+## Overviews on Graphs
 
 A graph is a pair of V(a set of nodes, called verticles) and E(collection of pairs of verticles, edges)
 
-The graphs are basically divided into two types: 1. Directed edge & 2. Undirected edge.
+The graphs are basically divided into two types: 
+    1. Directed edge & 2. Undirected edge.
+    
 
 ![directedgraph.drawio.svg](images/image1.svg)
 
